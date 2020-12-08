@@ -17,6 +17,16 @@
   --secondary-bg-color: #f5f4fa;
   --main-font: roboto, sans-serif;
   --secondary-font: raleway, sans-serif;
+  --main-font-size: 14px;
+  --logo-font-size: 26px;
+  --hero-font-size: 44px;
+  --button-team-pproject-font-size: 16px;
+  --htitle-font-size: 36px;
+  --title-project-font-size: 18px;
+  --primary-font-weight: 400;
+  --secondary-font-weight: 500;
+  --title-font-weight: 700;
+  --hero-title-font-weight: 900;
 }
 
 body {
@@ -24,7 +34,7 @@ body {
   color: var(--primary-text-color);
 
   font-family: var(--main-font);
-  font-size: 14px;
+  font-size: var(--main-font-size);
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
@@ -50,8 +60,8 @@ body {
   text-decoration: none;
 
   font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 26px;
+  font-weight: var(--title-font-weight);
+  font-size: var(--logo-font-size);
   line-height: 1.19;
 }
 
@@ -59,7 +69,7 @@ body {
 .contacts .contact {
   text-decoration: none;
 
-  font-weight: 500;
+  font-weight: var(--secondary-font-weight);
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -95,8 +105,8 @@ body {
 .hero-title {
   color: #ffffff;
 
-  font-weight: 900;
-  font-size: 44px;
+  font-weight: var(--hero-title-font-weight);
+  font-size: var(--hero-font-size);
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -110,8 +120,8 @@ body {
   background-color: var(--acccent-color);
 
   font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
+  font-weight: var(--title-font-weight);
+  font-size: var(--button-team-pproject-font-size);
   line-height: 1.87;
   letter-spacing: 0.06em;
 }
@@ -123,20 +133,20 @@ body {
 }
 
 .feature-list .title {
-  font-weight: 700;
+  font-weight: var(--title-font-weight);
   line-height: 1.14;
   text-transform: uppercase;
 }
 
 .feature-list p,
 .team-list p {
-  font-weight: 400;
+  font-weight: var(--primary-font-weight);
 }
 .section-title {
   color: var(--title-text-color);
 
-  font-weight: 700;
-  font-size: 36px;
+  font-weight: var(--title-font-weight);
+  font-size: var(--htitle-font-size);
   line-height: 1.17;
   text-align: center;
 }
@@ -147,12 +157,12 @@ body {
 
 .team-list .title,
 .team-list p {
-  font-size: 16px;
+  font-size: var(--button-team-pproject-font-size);
   line-height: 1.19;
 }
 
 .team-list .title {
-  font-weight: 500;
+  font-weight: var(--secondary-font-weight);
 }
 
 /* Footer */
@@ -165,7 +175,7 @@ body {
   color: var(--primary-white-color);
   text-decoration: none;
 
-  font-weight: 400;
+  font-weight: var(--primary-font-weight);
   font-style: normal;
 }
 
@@ -173,7 +183,7 @@ body {
   color: var(--primary-white-color);
   text-decoration: none;
 
-  font-weight: 400;
+  font-weight: var(--primary-font-weight);
 }
 
 footer {
@@ -187,8 +197,8 @@ footer {
   background-color: var(--secondary-bg-color);
 
   font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--button-team-pproject-font-size);
   line-height: 1.62;
 }
 
@@ -199,8 +209,8 @@ footer {
 }
 
 .project-list .title {
-  font-weight: 700;
-  font-size: 18px;
+  font-weight: var(--title-font-weight);
+  font-size: var(--title-project-font-size);
   line-height: 2;
   letter-spacing: 0.06em;
 }
@@ -208,9 +218,9 @@ footer {
 .project-list p {
   color: var(--primary-text-color);
 
-  font-size: 16px;
+  font-size: var(--button-team-pproject-font-size);
   line-height: 1.87;
-  font-weight: 400;
+  font-weight: var(--primary-font-weight);
 }
 
 .project-list a {

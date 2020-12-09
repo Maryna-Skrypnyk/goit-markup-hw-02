@@ -180,7 +180,7 @@ body {
 }
 
 .contacts-footer .contact-footer {
-  color: var(--primary-white-color);
+  color: var(--text-footer);
   text-decoration: none;
 
   font-weight: var(--primary-font-weight);
